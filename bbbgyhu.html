@@ -1,0 +1,215 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	<title>created web</title>
+	<style type="text/css">body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	background: url('bgh.jpg');
+	background-size: 1800px;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 80px;
+	padding: 10px 0;
+	background-size: 100%;
+}
+
+@font-face {
+        font-family: gg;
+        src: url(Barbarian.ttf);
+    }
+
+.logo {
+	display: flex;
+	padding: 0 50px;
+	height: 70px;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+	font-family: 'gg';
+	font-variant: inherit;
+	font-size:  50px;
+	font-weight: bold;
+	color: white;
+}
+
+.navigation {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@font-face {
+        font-family: bg;
+        src: url(long.ttf);
+    }
+
+.navigation a {
+	font-family: 'bg';
+	font-variant: inherit;
+	color: white;
+	margin-right: 20px;
+	text-decoration: none;
+	font-size: 16px;
+	transition: all 0.3s ease-in-out;
+}
+
+.navigation a:hover {
+	color: #00539C;
+}
+
+main {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 0 20px;
+}
+
+section {
+	margin: 40px 0;
+}
+
+@font-face {
+        font-family: cg;
+        src: url(bitch.otf);
+    }
+
+h2 {
+	font-family: 'cg';
+	font-variant: inherit;
+	color: white;
+	font-size: 24px;
+	margin: 0 0 20px;
+}
+
+@font-face {
+        font-family: bg;
+        src: url(typo.otf);
+    }
+
+p {
+	font-family: 'bg';
+	font-variant: inherit;
+	color: white;
+}
+
+@font-face {
+        font-family: bg;
+        src: url(typo.otf);
+    }
+
+ul {
+	font-family: 'bg';
+	font-variant: inherit;
+	color: white;
+	list-style-type: disc;
+	margin-left: 20px;
+}
+
+@font-face {
+        font-family: bg;
+        src: url(typo.otf);
+    }
+
+form label {
+	font-family: 'bg';
+	font-variant: inherit;
+	color: white;
+	display: block;
+	margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+}
+
+@font-face {
+        font-family: ng;
+        src: url(Caxo.otf);
+    }
+
+form input[type="submit"],
+form input[type="reset"] {
+	background-color: #333;
+	color: white;
+	font-family: 'ng';
+	font-variant: inherit;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+form input[type="submit"]:hover,
+form input[type="reset"]:hover {
+	background-color
+</style>
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<div class="logo">inxdon</div>
+			<nav class="navigation">
+			<a href="#about">About Me</a>
+			<a href="#skill">Skill</a>
+			<a href="#contact">Contact Me</a>
+		</nav>
+	</header>
+		<main>
+		<section id="about">
+			<h2>Tentang Saya</h2>
+			<p>Lulusan S10 Programming Universitas Maling Buah Tetangga (UMBT) dengan pengalaman magang di salah satu Fintech Isekai World, Memiliki beberapa projek pembuatan software untuk bisnis pengiriman uang, Saya adalah seorang yang dapat diandalkan, suka bekerja sama dengan tim dan selalu tepat waktu!</p>
+		</section>
+		<section id="skill">
+			<h2>Keahlian Saya</h2>
+			<ul>
+				<li>Proficiency with programming languages</li>
+				<li>Learning concepts and applying them to other problems</li>
+					<li>Mathematical skills</li>
+					<li>Problem-solving capability</li>
+					<li>Communication skills</li>
+					<li>Writing skills</li>
+				<li>Inquisitiveness</li>
+			<li>Self-motivation</li>
+			</ul>
+		</section>
+		<section id="contact">
+			<h2>Hubungi Saya</h2>
+			<form>
+				<label for="name">Nama:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="text" id="email" name="email" required>
+				<label for="message">Pesan:</label>
+				<input type="text" id="message" name="message">
+				<input type="reset" value="Hapus">
+				<input type="submit" value="Kirim">
+			</form>
+		</section>
+		</main>
+		<footer>
+			<p align="center">&copy;INXDON </p>
+		</footer>
+	</header>
+</div>
+</body>
+</html>
